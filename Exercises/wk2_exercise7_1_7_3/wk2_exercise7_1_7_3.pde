@@ -22,4 +22,12 @@ vertex(150,50);
 vertex(75,25);
 endShape(CLOSE);
 
+smooth();
+noStroke();
+beginShape();
+vertex(150,150);
+bezierVertex(150,150,80,220,150,80);
+bezierVertex(150,80,220,220,150,150);
+endShape();
+
 
